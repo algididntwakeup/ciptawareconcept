@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 375" width="600" height="375">
+  <defs>
+    <radialGradient id="n3Glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#cef79e" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#4d5757" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="375" fill="#0c1415"/>
+  <circle cx="300" cy="188" r="170" fill="url(#n3Glow)"/>
+
+  <g fill="none" stroke="#4d5757" stroke-width="1" opacity="0.5">
+    <circle cx="300" cy="188" r="44"/>
+    <circle cx="300" cy="188" r="86"/>
+    <circle cx="300" cy="188" r="128"/>
+    <circle cx="300" cy="188" r="168" opacity="0.6"/>
+  </g>
+
+  <g fill="#4d5757">
+    <circle cx="300" cy="60" r="2.5"/>
+    <circle cx="428" cy="188" r="2.5"/>
+    <circle cx="300" cy="316" r="2.5"/>
+    <circle cx="172" cy="188" r="2.5"/>
+    <circle cx="386" cy="102" r="2"/>
+    <circle cx="214" cy="274" r="2"/>
+  </g>
+  <circle cx="300" cy="188" r="6" fill="#cef79e"/>
+  <circle cx="300" cy="144" r="3" fill="#cef79e" opacity="0.7"/>
+</svg>

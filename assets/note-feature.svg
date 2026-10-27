@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <radialGradient id="nfGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#cef79e" stop-opacity="0.32"/>
+      <stop offset="55%" stop-color="#4d5757" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#4d5757" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nfInk" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4d5757" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#4d5757" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="nfSoft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="#0c1415"/>
+
+  <g stroke="#4d5757" stroke-width="1" opacity="0.25">
+    <path d="M0 150H800M0 240H800M0 330H800M0 420H800M0 510H800"/>
+    <path d="M120 0V600M240 0V600M360 0V600M480 0V600M600 0V600M720 0V600"/>
+  </g>
+
+  <g filter="url(#nfSoft)">
+    <circle cx="560" cy="300" r="190" fill="url(#nfGlow)"/>
+    <circle cx="660" cy="220" r="120" fill="url(#nfInk)"/>
+    <circle cx="500" cy="390" r="110" fill="url(#nfInk)"/>
+  </g>
+
+  <g fill="none" stroke="#4d5757" stroke-width="1" opacity="0.4">
+    <circle cx="560" cy="300" r="70"/>
+    <circle cx="560" cy="300" r="130"/>
+    <circle cx="560" cy="300" r="190"/>
+  </g>
+
+  <g fill="#4d5757">
+    <circle cx="560" cy="230" r="3"/>
+    <circle cx="620" cy="330" r="3"/>
+    <circle cx="500" cy="345" r="2.5"/>
+    <circle cx="655" cy="250" r="2"/>
+    <circle cx="470" cy="270" r="2"/>
+    <circle cx="590" cy="420" r="2"/>
+    <circle cx="700" cy="360" r="2"/>
+  </g>
+  <g fill="#cef79e">
+    <circle cx="560" cy="300" r="5"/>
+    <circle cx="640" cy="238" r="3"/>
+    <circle cx="505" cy="392" r="2.5"/>
+  </g>
+</svg>

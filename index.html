@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="id" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ciptaware — Digital Product Studio</title>
+  <meta name="description" content="Studio produk digital di Jakarta. Strategi, desain, dan rekayasa perangkat lunak dalam satu tim senior.">
+  <meta name="theme-color" content="#222f30">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400&family=Roboto+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.replace('no-js','js');</script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Lewati ke konten</a>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__logo">ciptaware<span class="nav__dot" aria-hidden="true"></span></a>
+      <nav class="nav__links" aria-label="Navigasi">
+        <a class="nav__link" href="#services" data-nav="services" data-i18n="nav.services">Layanan</a>
+        <a class="nav__link" href="#process" data-nav="process" data-i18n="nav.process">Cara kerja</a>
+        <a class="nav__link" href="#notes" data-nav="notes" data-i18n="nav.notes">Catatan</a>
+        <a class="nav__link" href="#contact" data-nav="contact" data-i18n="nav.contact">Kontak</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="nav__lang" type="button" data-lang-toggle aria-label="Ganti ke Bahasa Inggris">EN</button>
+        <a href="#contact" class="btn btn--light nav__cta" data-i18n="nav.cta">Mulai proyek</a>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-mobile" aria-label="Buka menu" data-i18n-aria="nav.menu">
+          <span aria-hidden="true"></span><span aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div id="nav-mobile" class="nav-mobile" hidden aria-hidden="true">
+    <div class="nav-mobile__top">
+      <span class="nav__logo">ciptaware<span class="nav__dot" aria-hidden="true"></span></span>
+      <button class="nav__close" type="button" aria-label="Tutup menu" data-i18n-aria="nav.close">
+        <span aria-hidden="true"></span><span aria-hidden="true"></span>
+      </button>
+    </div>
+    <nav class="nav-mobile__links" aria-label="Navigasi seluler">
+      <a href="#services" data-nav="services" data-i18n="nav.services">Layanan</a>
+      <a href="#process" data-nav="process" data-i18n="nav.process">Cara kerja</a>
+      <a href="#notes" data-nav="notes" data-i18n="nav.notes">Catatan</a>
+      <a href="#contact" data-nav="contact" data-i18n="nav.contact">Kontak</a>
+    </nav>
+    <div class="nav-mobile__bottom">
+      <button class="nav__lang" type="button" data-lang-toggle aria-label="Ganti ke Bahasa Inggris">EN</button>
+      <a href="#contact" class="btn btn--light" data-i18n="nav.cta">Mulai proyek</a>
+    </div>
+  </div>
+
+  <main id="main">
+    <section id="hero" class="hero">
+      <div class="hero__canvas-wrap" data-parallax="0.08" aria-hidden="true">
+        <canvas id="hero-canvas"></canvas>
+      </div>
+      <div class="hero__ghost" data-parallax="0.25" aria-hidden="true">CIPTAWARE</div>
+      <div class="hero__inner container">
+        <p class="hero__eyebrow hero__reveal" style="--i:0">
+          <span class="hero__eyebrow-dot" aria-hidden="true"></span>
+          <span data-i18n="hero.eyebrow">DIGITAL PRODUCT STUDIO — JAKARTA, INDONESIA</span>
+        </p>
+        <div class="hero__title-wrap" data-parallax="-0.05">
+          <h1 class="hero__title hero__reveal" style="--i:1" data-i18n="hero.title">Produk digital yang bertahan.</h1>
+        </div>
+        <div class="hero__bottom">
+          <div class="hero__lead">
+            <p class="hero__sub hero__reveal" style="--i:2" data-i18n="hero.sub">Strategi, desain, dan rekayasa perangkat lunak untuk tim yang ingin membangun dengan benar sejak awal.</p>
+            <div class="hero__actions hero__reveal" style="--i:3">
+              <a class="btn btn--light" href="#about" data-i18n="hero.cta1">Jelajahi perusahaan</a>
+              <a class="btn btn--ghost" href="#process" data-i18n="hero.cta2">Cara kerja</a>
+            </div>
+          </div>
+          <div class="hero__aside">
+            <p class="hero__meta" data-i18n="hero.meta">STRATEGI · DESAIN · REKAYASA · AI</p>
+            <div class="hero__cue" aria-hidden="true">
+              <span class="hero__cue-line"></span>
+              <span class="hero__cue-dot"></span>
+              <span class="hero__cue-label" data-i18n="hero.scroll">GULIR</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section--light about">
+      <div class="container section__head">
+        <span class="section__label" data-i18n="about.label">01 — TENTANG</span>
+        <div class="about__content">
+          <h2 class="about__title" data-i18n-html="about.title">Satu tim untuk <span class="muted">seluruh siklus produk.</span></h2>
+          <p class="about__body" data-i18n="about.body1">Ciptaware adalah studio produk digital yang menyatukan strategi, desain, dan rekayasa dalam satu tim senior. Kami bekerja dekat dengan klien — dari riset awal sampai rilis, tanpa lapisan agensi yang memperlambat.</p>
+          <p class="about__body" data-i18n="about.body2">Kami percaya produk yang baik lahir dari keputusan yang jelas: masalah yang dipahami, ruang lingkup yang dijaga, dan kode yang siap dirawat.</p>
+          <p class="about__pull" data-i18n="about.pull">Kecil dengan sengaja. Senior sejak hari pertama.</p>
+          <div class="about__cards">
+            <div class="about__card reveal" style="--i:0">
+              <span class="about__index">01</span>
+              <h3 data-i18n="about.card1.title">Strategi produk</h3>
+              <p data-i18n="about.card1.body">Riset, prioritas, dan peta jalan yang bisa langsung dieksekusi.</p>
+            </div>
+            <div class="about__card reveal" style="--i:1">
+              <span class="about__index">02</span>
+              <h3 data-i18n="about.card2.title">Desain &amp; sistem</h3>
+              <p data-i18n="about.card2.body">Antarmuka yang jelas, design system yang konsisten, prototipe yang bisa diuji.</p>
+            </div>
+            <div class="about__card reveal" style="--i:2">
+              <span class="about__index">03</span>
+              <h3 data-i18n="about.card3.title">Rekayasa &amp; AI</h3>
+              <p data-i18n="about.card3.body">Web, mobile, dan fitur cerdas yang dibangun untuk dirawat, bukan dibongkar.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section section--dark services">
+      <div class="container">
+        <div class="section__head">
+          <span class="section__label" data-i18n="services.label">02 — LAYANAN</span>
+          <div class="services__content">
+            <h2 class="services__title" data-i18n="services.title">Dari arah produk sampai kode produksi.</h2>
+            <p class="services__intro" data-i18n="services.intro">Tiga disiplin, satu tim. Tidak ada serah-terima antar vendor yang kehilangan konteks.</p>
+          </div>
+        </div>
+        <ul class="services__list">
+          <li class="service reveal" style="--i:0">
+            <span class="service__index">01</span>
+            <h3 class="service__title" data-i18n="services.s1.title">Strategi produk</h3>
+            <p class="service__body" data-i18n="services.s1.body">Kami memetakan masalah, pengguna, dan peluang sebelum satu baris kode ditulis.</p>
+            <a class="arrow-btn" href="#contact" aria-label="Diskusikan layanan strategi produk" data-i18n-aria="services.s1.aria">
+              <svg viewBox="0 0 16 16" width="16" height="16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </li>
+          <li class="service reveal" style="--i:1">
+            <span class="service__index">02</span>
+            <h3 class="service__title" data-i18n="services.s2.title">Desain produk</h3>
+            <p class="service__body" data-i18n="services.s2.body">Alur, antarmuka, dan design system yang membuat keputusan terasa mudah.</p>
+            <a class="arrow-btn" href="#contact" aria-label="Diskusikan layanan desain produk" data-i18n-aria="services.s2.aria">
+              <svg viewBox="0 0 16 16" width="16" height="16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </li>
+          <li class="service reveal" style="--i:2">
+            <span class="service__index">03</span>
+            <h3 class="service__title" data-i18n="services.s3.title">Rekayasa perangkat lunak</h3>
+            <p class="service__body" data-i18n="services.s3.body">Frontend, backend, mobile, dan integrasi AI — dirilis dengan standar produksi.</p>
+            <a class="arrow-btn" href="#contact" aria-label="Diskusikan layanan rekayasa perangkat lunak" data-i18n-aria="services.s3.aria">
+              <svg viewBox="0 0 16 16" width="16" height="16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="process" class="process">
+      <div class="process__stage">
+        <div class="container process__grid">
+          <div class="process__left">
+            <span class="section__label" data-i18n="process.label">03 — CARA KERJA</span>
+            <h2 class="process__title" data-i18n="process.title">Satu alur, tanpa konteks yang hilang.</h2>
+            <p class="process__intro" data-i18n="process.intro">Empat fase, satu tim yang sama dari awal sampai akhir.</p>
+            <p class="process__counter" aria-hidden="true"><span id="process-index">01</span> / 04</p>
+            <div class="process__rail" aria-hidden="true"><span class="process__bar"></span></div>
+            <ol class="process__steps">
+              <li class="process__step is-active">
+                <span class="process__num">01</span>
+                <div>
+                  <h3 data-i18n="process.step1.title">Temukan</h3>
+                  <p data-i18n="process.step1.body">Workshop, riset, dan audit sistem untuk menyepakati masalah yang benar.</p>
+                </div>
+              </li>
+              <li class="process__step">
+                <span class="process__num">02</span>
+                <div>
+                  <h3 data-i18n="process.step2.title">Rancang</h3>
+                  <p data-i18n="process.step2.body">Alur, prototipe, dan design system yang diuji bersama pengguna.</p>
+                </div>
+              </li>
+              <li class="process__step">
+                <span class="process__num">03</span>
+                <div>
+                  <h3 data-i18n="process.step3.title">Bangun</h3>
+                  <p data-i18n="process.step3.body">Sprint dua minggu, demo tiap Jumat, kode yang selalu bisa dirilis.</p>
+                </div>
+              </li>
+              <li class="process__step">
+                <span class="process__num">04</span>
+                <div>
+                  <h3 data-i18n="process.step4.title">Rawat</h3>
+                  <p data-i18n="process.step4.body">Observabilitas, iterasi, dan transfer pengetahuan ke tim Anda.</p>
+                </div>
+              </li>
+            </ol>
+          </div>
+          <div class="process__visual" aria-hidden="true">
+            <img class="process__molecule" src="assets/molecule.svg" alt="" width="800" height="800">
+            <span class="process__ring process__ring--1"></span>
+            <span class="process__ring process__ring--2"></span>
+            <span class="process__ring process__ring--3"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band-section">
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track" id="marquee-track"></div>
+      </div>
+      <div class="band-wrap">
+        <div class="container">
+          <div class="band">
+            <div class="band__media" data-parallax="0.18">
+              <img src="assets/cells.svg" alt="" width="1200" height="800">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="notes" class="section section--light notes">
+      <div class="container">
+        <div class="section__head">
+          <span class="section__label" data-i18n="notes.label">04 — CATATAN</span>
+          <div class="notes__content">
+            <h2 class="notes__title" data-i18n="notes.title">Cara kami berpikir.</h2>
+            <p class="notes__intro" data-i18n="notes.intro">Catatan singkat tentang produk, desain, dan rekayasa.</p>
+          </div>
+        </div>
+
+        <article class="notes__featured reveal">
+          <div class="notes__media">
+            <img src="assets/note-feature.svg" alt="" width="800" height="600">
+          </div>
+          <div class="notes__body">
+            <div class="tag-row">
+              <span class="tag"><span class="tag__dot" aria-hidden="true"></span><span data-i18n="notes.featured.tag">ENGINEERING</span></span>
+              <span class="read-time" data-i18n="notes.featured.read">12 MENIT BACA</span>
+            </div>
+            <h3 class="notes__card-title" data-i18n="notes.featured.title">Kenapa design system gagal sebelum sempat dipakai</h3>
+            <p class="notes__excerpt" data-i18n="notes.featured.excerpt">Sebagian besar design system tidak gagal karena komponennya, tapi karena tidak ada yang memiliki keputusan. Ini cara kami menghindarinya.</p>
+          </div>
+        </article>
+
+        <div class="notes__grid">
+          <article class="note-card reveal" style="--i:0">
+            <div class="note-card__media">
+              <img src="assets/note-1.svg" alt="" width="600" height="375" data-parallax="0.05">
+            </div>
+            <div class="tag-row">
+              <span class="tag"><span class="tag__dot" aria-hidden="true"></span><span data-i18n="notes.n1.tag">AI</span></span>
+            </div>
+            <h3 class="notes__card-title" data-i18n="notes.n1.title">AI di produk: tiga pola yang benar-benar berguna</h3>
+            <p class="notes__excerpt" data-i18n="notes.n1.excerpt">Bukan chatbot di mana-mana. Tiga pola yang menghemat waktu pengguna dan tetap bisa dijelaskan.</p>
+          </article>
+          <article class="note-card reveal" style="--i:1">
+            <div class="note-card__media">
+              <img src="assets/note-2.svg" alt="" width="600" height="375" data-parallax="0.05">
+            </div>
+            <div class="tag-row">
+              <span class="tag"><span class="tag__dot" aria-hidden="true"></span><span data-i18n="notes.n2.tag">PRODUCT</span></span>
+            </div>
+            <h3 class="notes__card-title" data-i18n="notes.n2.title">Merilis lebih sedikit, lebih sering</h3>
+            <p class="notes__excerpt" data-i18n="notes.n2.excerpt">Ruang lingkup kecil bukan kompromi. Ia yang membuat umpan balik datang saat masih murah.</p>
+          </article>
+          <article class="note-card reveal" style="--i:2">
+            <div class="note-card__media">
+              <img src="assets/note-3.svg" alt="" width="600" height="375" data-parallax="0.05">
+            </div>
+            <div class="tag-row">
+              <span class="tag"><span class="tag__dot" aria-hidden="true"></span><span data-i18n="notes.n3.tag">DESIGN</span></span>
+            </div>
+            <h3 class="notes__card-title" data-i18n="notes.n3.title">Kontrak desain–engineering yang menghemat enam bulan</h3>
+            <p class="notes__excerpt" data-i18n="notes.n3.excerpt">Satu artefak kecil yang menyepakati perilaku sebelum piksel terakhir.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section--dark contact">
+      <div class="contact__ghost" data-parallax="0.2" aria-hidden="true">TALK</div>
+      <div class="container contact__inner">
+        <span class="section__label" data-i18n="contact.label">05 — KONTAK</span>
+        <h2 class="contact__title" data-i18n="contact.title">Mari bicara.</h2>
+        <p class="contact__body" data-i18n="contact.body">Punya produk yang perlu dibangun atau dirapikan? Ceritakan konteksnya — kami akan membalas dengan pendapat, bukan brosur.</p>
+        <div class="contact__actions">
+          <a class="btn btn--light" href="mailto:hello@ciptaware.id" data-i18n="contact.cta">Kirim email</a>
+          <a class="contact__mail" href="mailto:hello@ciptaware.id">hello@ciptaware.id</a>
+        </div>
+        <p class="contact__meta" data-i18n="contact.meta">Jakarta, Indonesia — GMT+7</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__wordmark">ciptaware<span class="nav__dot" aria-hidden="true"></span></p>
+      <div class="footer__rule" aria-hidden="true"></div>
+      <div class="footer__grid">
+        <div>
+          <p class="footer__label" data-i18n="footer.nav">NAVIGASI</p>
+          <ul class="footer__links">
+            <li><a href="#services" data-i18n="nav.services">Layanan</a></li>
+            <li><a href="#process" data-i18n="nav.process">Cara kerja</a></li>
+            <li><a href="#notes" data-i18n="nav.notes">Catatan</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Kontak</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__label" data-i18n="footer.connect">TERHUBUNG</p>
+          <ul class="footer__links">
+            <li><a href="mailto:hello@ciptaware.id">hello@ciptaware.id</a></li>
+            <li>Jakarta, Indonesia</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p data-i18n="footer.copy">© 2026 Ciptaware. Dibangun dengan saksama.</p>
+        <a class="footer__top" href="#top">
+          <svg viewBox="0 0 16 16" width="14" height="14" fill="none" aria-hidden="true"><path d="M8 13V3M4 7l4-4 4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span data-i18n="footer.top">Kembali ke atas</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

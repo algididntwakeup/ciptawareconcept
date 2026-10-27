@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 375" width="600" height="375">
+  <defs>
+    <radialGradient id="n2Glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#cef79e" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#4d5757" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="375" fill="#0c1415"/>
+  <circle cx="470" cy="120" r="160" fill="url(#n2Glow)"/>
+
+  <g fill="none" stroke="#4d5757" stroke-width="1" opacity="0.55">
+    <rect x="80" y="70" width="440" height="235" rx="10"/>
+    <path d="M80 118H520"/>
+    <rect x="104" y="142" width="150" height="16" rx="4"/>
+    <rect x="104" y="172" width="240" height="16" rx="4"/>
+    <rect x="104" y="202" width="200" height="16" rx="4"/>
+    <rect x="104" y="244" width="96" height="34" rx="6"/>
+    <rect x="344" y="142" width="152" height="136" rx="8"/>
+  </g>
+
+  <g fill="#4d5757" opacity="0.7">
+    <circle cx="100" cy="94" r="3"/>
+    <circle cx="114" cy="94" r="3"/>
+    <circle cx="128" cy="94" r="3"/>
+  </g>
+  <circle cx="470" cy="210" r="6" fill="#cef79e" opacity="0.85"/>
+  <circle cx="420" cy="180" r="2" fill="#cef79e" opacity="0.5"/>
+</svg>
